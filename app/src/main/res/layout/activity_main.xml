@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/str_imagen"
+        android:id="@+id/principal"
+        />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:scrollbars="none"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/imagina"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="15dp"
+                android:contentDescription="@string/str_imagen"
+                android:id="@+id/imagen1">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/imaginab"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="15dp"
+                android:contentDescription="@string/str_imagen"
+                android:id="@+id/imagen2">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/imagen3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:contentDescription="@string/str_imagen"
+                android:paddingLeft="15dp"
+                android:src="@drawable/imaginac" />
+
+            <ImageView
+                android:id="@+id/imagen4"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/imaginad"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/str_imagen">
+            </ImageView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnTexto"
+        />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_acercade"
+        />
+</LinearLayout>
