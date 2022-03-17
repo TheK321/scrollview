@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">AppTapiz</string>
-    <string name="btnTexto">CambiarImagen</string>
+    <string name="btnTexto">Toque sobre la imagen siguiente para cambiar el fondo</string>
     <string name="str_imagen">banner Imagina</string>
-    <string name="autor">Noemí Lara Acono</string>
+    <string name="autor">Mario Martínez Arteaga</string>
     <string name="str_acercade">Acerca de</string>
+    <string name="btnTexto2">Toque para seleccionar otro fondo</string>
 </resources>

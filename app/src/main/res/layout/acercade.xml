@@ -7,17 +7,18 @@
     <ImageView
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:src="@drawable/logo"
+        android:src="@drawable/info"
         android:layout_gravity="center_horizontal"
         android:contentDescription="@string/str_imagen"
-        android:id="@+id/principal"
+        android:id="@+id/info"
         />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="25dp"
-        android:text="@string/autor" />
+        android:text="@string/autor"
+        android:textAlignment="center"
+        android:textSize="25dp" />
 
 </LinearLayout>
